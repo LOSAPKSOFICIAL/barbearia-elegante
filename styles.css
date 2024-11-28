@@ -48,15 +48,6 @@ nav ul li a:hover {
     background: #555;
 }
 
-.logo, img{
-    position: absolute;
-    top: 02px;
-    left: 50px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
 .hero {
     no-repeat center center/cover;
     color: #fff;
