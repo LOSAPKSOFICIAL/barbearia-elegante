@@ -49,11 +49,11 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("/imagem/imageX.jpg");
     no-repeat center center/cover;
     color: #fff;
     padding: 60px 20px;
     text-align: center;
+    background-image: url("/imagem/imageX.jpg");
 }
 
 
