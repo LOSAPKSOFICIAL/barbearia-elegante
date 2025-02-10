@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #555;
+}
+
+#create {
+    background-color: none;
+    color: #000;
+    font-size: 16px;
+    margin: 10px 0;
+}
+#create a {
+    color: inherit; /* Herda a cor do elemento pai */
+    font-weight: inherit; /* Herda o peso da fonte do elemento pai */
+    text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
+    text-decoration: none;
+}
+
+#site {
+    background-color: none;
+    color: #000;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#site a {
+    color: inherit; /* Herda a cor do elemento pai */
+    font-weight: inherit; /* Herda o peso da fonte do elemento pai */
+    text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
+    text-decoration: none;
+}

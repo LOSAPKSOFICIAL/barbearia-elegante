@@ -16,6 +16,7 @@
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#appointment">Agendamento</a></li>
                 <li><a href="#contact">Contato</a></li>
+                <li><a href="login.html" id="login">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +64,7 @@
             <label for="message">Mensagem:</label>
             <textarea id="message" name="message"></textarea>
             
-            <button type="submit">Agendar</button>
+            <button type="submit" id="bt_agendar">Agendar</button>
         </form>
     </section>
 
@@ -77,5 +78,15 @@
     <footer>
         <p>&copy; 2024 Barbearia Elegante. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        $(document).ready(function() {
+	    
+        var display = $("#appointment");
+        $("#bt_agendar").on("click", function() {	
+		 display.val('Agendamento concluido!');
+		});
+	 });
+    </script>
 </body>
 </html>
