@@ -53,6 +53,10 @@ form button:hover {
     text-decoration: none;
 }
 
+#create:hover {
+    background: #555;
+}
+
 #site {
     background-color: none;
     color: #000;
@@ -65,4 +69,7 @@ form button:hover {
     font-weight: inherit; /* Herda o peso da fonte do elemento pai */
     text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
     text-decoration: none;
+}
+#site:hover {
+    background: #555;
 }
