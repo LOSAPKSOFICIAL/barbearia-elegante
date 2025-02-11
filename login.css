@@ -46,15 +46,12 @@ form button:hover {
     font-size: 16px;
     margin: 10px 0;
 }
+
 #create a {
     color: inherit; /* Herda a cor do elemento pai */
     font-weight: inherit; /* Herda o peso da fonte do elemento pai */
     text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
     text-decoration: none;
-}
-
-.create a:hover {
-    text-decoration: #555;
 }
 
 #site {
@@ -69,8 +66,4 @@ form button:hover {
     font-weight: inherit; /* Herda o peso da fonte do elemento pai */
     text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
     text-decoration: none;
-}
-
-.site a:hover {
-    text-decoration: #555;
 }
