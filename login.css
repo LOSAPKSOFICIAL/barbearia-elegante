@@ -53,7 +53,7 @@ form button:hover {
     text-decoration: none;
 }
 
-#create:hover {
+#create a:hover {
     background: #555;
 }
 
@@ -70,6 +70,6 @@ form button:hover {
     text-shadow: inherit; /* Herda a sombra do texto do elemento pai */
     text-decoration: none;
 }
-#site:hover {
+#site a:hover {
     background: #555;
 }
